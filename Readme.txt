@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+Thanks for visiting my site !! 
 
-Template Name: UpConstruction
-Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-Author: BootstrapMade.com
+website Name: ShreeChanunda Construction 
+Developed By: Kinjal Bhardava 
 License: https://bootstrapmade.com/license/
