@@ -76,14 +76,19 @@
 
               <p>Welcome to ShreeChamunda Construction, where quality craftsmanship meets innovative constructions solution. with 7+ years of experience in the city, we provide ourseleves on delivering exceptional services to meet your needs.</p>
               <a href="#get-started" class="btn-get-started" id ="contactus">Contact Us
-              <script>
-    function contactus() {
-        const phoneNumber = '+91 91068 98329'; // Replace with the phone number you want to redirect to
-        const message = encodeURIComponent('Hello, I would like to chat with you.');
-        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
-        window.location.href = url;
-    }
-              </script> </a>
+               </a>
+
+              
+
+    <script>
+        document.getElementById('contactus').onclick = function() {
+            // Replace the following phone number and message with your own
+            var phoneNumber = '+91 91068 98329'; // International format without "+" (e.g., 15551234567)
+            var message = 'Hello, I would like to chat with you.';
+            var whatsappUrl = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(message);
+            window.location.href = whatsappUrl;
+        };
+    </script>
             </div>
           </div>
         </div>
