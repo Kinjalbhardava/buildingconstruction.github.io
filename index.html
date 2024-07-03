@@ -75,7 +75,15 @@
               <h2>We Building Dreams</h2>
 
               <p>Welcome to ShreeChamunda Construction, where quality craftsmanship meets innovative constructions solution. with 7+ years of experience in the city, we provide ourseleves on delivering exceptional services to meet your needs.</p>
-              <a href="#get-started" class="btn-get-started">Contact Us</a>
+              <a href="#get-started" class="btn-get-started" id ="contactus">Contact Us</a>
+              <script>
+    function contactus() {
+        const phoneNumber = '+91 91068 98329'; // Replace with the phone number you want to redirect to
+        const message = encodeURIComponent('Hello, I would like to chat with you.');
+        const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
+        window.location.href = url;
+    }
+              </script>
             </div>
           </div>
         </div>
